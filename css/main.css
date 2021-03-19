@@ -45,6 +45,15 @@ p {
     font-family: 'book antiqua', 'palatino', 'serif';
     text-align: justify
 }
+
+ul {
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #333;
+    font-family: 'book antiqua', 'palatino', 'serif';
+    text-align: justify
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
