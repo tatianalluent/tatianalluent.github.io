@@ -22,16 +22,19 @@ a:hover {
 }
 h1 {
     font-size: 2.4em;
-    font-family: Georgia, serif;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
     text-align: center
-    padding-top: 40px;
+    padding-top: 70px;
+    padding-bottom: 10px;
 }
 
 h2 {
     font-size: 1.1em;
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: Copperplate, sans-serif;
+    font-weight: normal;
     text-align: center
-    padding-bottom: 60px;
+    padding-bottom: 100px;
 }
 
 p {
