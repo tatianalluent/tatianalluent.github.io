@@ -3,7 +3,6 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-size: 1.5em;
     font-family:'Roboto', sans-serif;
     padding: 0px;
     list-style: none;
@@ -12,7 +11,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    border-style: ridge;
+    font-size: 1.5em;
 }
 a {
     text-decoration: none;
