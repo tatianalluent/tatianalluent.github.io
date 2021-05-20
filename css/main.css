@@ -7,13 +7,16 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    width: 40%;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    font-size: 1.5em;
-    width: 40%;
+    font-size: 70vw;
+}
+@media only screen and (min-width: 768px) {
+.sf-menu > li > a {
+font-size: 11px !important;
+}
 }
 a {
     text-decoration: none;
