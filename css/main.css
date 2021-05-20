@@ -13,11 +13,7 @@ nav ul li, footer ul li {
     margin-right: 20px;
     font-size: 7vw;
 }
-@media only screen and (min-width: 768px) {
-.sf-menu > li > a {
-font-size: 11px !important;
-}
-}
+
 a {
     text-decoration: none;
     color: #999;
