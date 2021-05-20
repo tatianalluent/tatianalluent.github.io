@@ -69,3 +69,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+img {
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
+}
