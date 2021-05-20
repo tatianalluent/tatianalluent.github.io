@@ -7,6 +7,57 @@
 			<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 			<meta name="google-site-verification" content="msTi-kAb44xrECDngLApS583PXlpBxdNUmMQ9nvwybw" />
 			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+			<style>
+			body {
+			  font-family: "Times New Roman", "Times", serif;
+			}
+
+			.mobile-container {
+			  max-width: 480px;
+			  margin: auto;
+			  height: 500px;
+			  color: black;
+			  border-radius: 10px;
+			}
+
+			.topnav {
+			  overflow: hidden;
+			  background-color: black;
+			  position: relative;
+			}
+
+			.topnav #myLinks {
+			  display: none;
+			}
+
+			.topnav a {
+			  color: white;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			  font-size: 17px;
+			  display: block;
+			}
+
+			.topnav a.icon {
+			  background: black;
+			  display: block;
+			  position: absolute;
+			  right: 0;
+			  top: 0;
+			}
+
+			.topnav a:hover {
+			  background-color: #404040;
+			  color: white;
+			}
+
+			.active {
+			  background-color: black;
+			  color: white;
+			}
+			</style>
 		</head>
 		<body>
 			<nav>
@@ -17,16 +68,46 @@
 				<li><a href="/resources">RESOURCES</a></li>
 	    		</ul>
 			</nav>
+			
+			<!-- Simulate a smartphone / tablet -->
+			<div class="mobile-container">
+
+			<!-- Top Navigation Menu -->
+			<div class="topnav">
+			  <a href="/" class="active">Menu</a>
+			  <div id="myLinks">
+			    <a href="/">Home</a>
+			    <a href="{{site.baseurl}}/docs/pdfs/Academic Resume_Tatiana LLUENT_WF.pdf" target="_blank">CV</a>
+			    <a href="/research">Research</a>
+			    <a href="/resources">Resources</a>
+			  </div>
+			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			    <i class="fa fa-bars"></i>
+			  </a>
+			</div>
+			
 			<div class="container">
 			
 			{{ content }}
 			
 			</div><!-- /.container -->
+			<!-- End smartphone / tablet look -->
+			</div>
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:tatiana.lluent@gmail.com">email</a></li>
             			<li><a href="https://tatianalluent.github.io">tatianalluent.github.io</a></li>
 			</ul>
 			</footer>
+			<script>
+			function myFunction() {
+			  var x = document.getElementById("myLinks");
+			  if (x.style.display === "block") {
+			    x.style.display = "none";
+			  } else {
+			    x.style.display = "block";
+			  }
+			}
+			</script>
 		</body>
 	</html>
