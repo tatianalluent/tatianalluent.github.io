@@ -2,7 +2,14 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
+nav ul {
+    font-family:'Roboto', sans-serif;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 2vw;
+}
+footer ul {
     font-family:'Roboto', sans-serif;
     padding: 0px;
     list-style: none;
@@ -11,7 +18,7 @@ nav ul, footer ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 footer ul li {
     display: inline;
@@ -51,7 +58,7 @@ p {
     line-height: 1.4em;
     color: #333;
     font-family: 'book antiqua', 'palatino', 'serif';
-    text-align: justify
+    text-align: justify;
 }
 
 ul {
@@ -59,7 +66,7 @@ ul {
     line-height: 1.4em;
     color: #333;
     font-family: 'book antiqua', 'palatino', 'serif';
-    text-align: justify
+    text-align: left;
 }
 
 footer {
