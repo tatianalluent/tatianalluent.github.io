@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+
+  /*This will make the navigation links show up on separate lines @ smaller screen
+  sizes*/
+  nav ul li{
+    display: block;
+  }
+
+  /*This adjusts the size and formatting of the headshot image at smaller screen sizes*/
+
+  #headshot {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 431px;
+    padding-bottom: 20px;
+  }
+
+
+  /*These last two rules just "prettify" the h1 h2 padding/margins a bit. Change them
+  to whatever look good to you.*/
+
+  h1 {
+    margin-top: 0;
+    padding-top: 40px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+  }
+
+}
