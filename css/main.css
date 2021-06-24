@@ -68,6 +68,23 @@ ul {
     font-family: 'book antiqua', 'palatino', 'serif';
     text-align: left;
 }
+/******************************************************************************/
+/* Max's Addtiions-START */
+/******************************************************************************/
+/*I removed the image styling embedded in index.html, and added it in main.css instad.
+This is important in order for the respoinsive.css to work*/
+
+/*Note I gave the image an "id" attribute #headshot.*/
+
+#headshot {
+  float: left;
+  margin: 0px 15px 15px 0px;
+  width: 336px;
+  height: 431px;
+}
+/******************************************************************************/
+/* Max's Additions-END */
+/******************************************************************************/
 
 footer {
     border-top: 1px solid #d5d5d5;
@@ -83,7 +100,9 @@ ul.posts li {
     list-style: none;
 }
 
-img {
+/*
+  img {
   max-width: 40%;
   height: auto;
 }
+*/
