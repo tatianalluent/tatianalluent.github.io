@@ -1,2 +1,20 @@
+---
+title: Tatiana Lluent
+---
+# Site settings
 name: Tatiana Lluent
+description: Assistant Professor of Strategy at ESMT Berlin
+url: https://tatianalluent.github.io/
 markdown: kramdown
+google_analytics: G-LS73K3C9PE
+google-site-verification: msTi-kAb44xrECDngLApS583PXlpBxdNUmMQ9nvwybw
+
+# Personal info
+author: Tatiana Lluent
+first_name: Tatiana
+last_name: Lluent
+university: ESMT Berlin
+
+# Build settings
+plugins:
+  - jekyll-seo-tag
