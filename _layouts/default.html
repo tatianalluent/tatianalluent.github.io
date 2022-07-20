@@ -47,12 +47,23 @@
 			
 			</div><!-- /.container -->
 			
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:tatiana.lluent@gmail.com">email</a></li>
-            			<li><a href="https://tatianalluent.github.io">tatianalluent.github.io</a></li>
-			</ul>
-			</footer>
-			
+			<footer>	    		
+				<div class="pagebox">
+					<div class="container">
+						<div class="section left footnote" style="width: 100%;">
+							{{ site.first_name | prepend: "&copy; <script>document.write(new Date().getFullYear())</script> " }}<span style="display: none;"> </span><b> {{ site.last_name }}</b>
+							<br />
+							<a href="https://jekyllrb.com/">Jekyll</a> ·
+							<a href="{{ site.repo }}">Source</a> 
+						</div>
+						<div class="section right" style="width: 75%; ">
+							<a href="mailto:{{ site.email }}" class="fas fa-2x fa-envelope-square" title="Email" id="icon"></a>
+							<a href="https://scholar.google.com/citations?user=0Ik-RUEAAAAJ&hl=en" class="ai ai-2x ai-google-scholar-square" title="Google Scholar" id="icon"></a>
+							<a href="https://twitter.com/TatianaLluent" class=class="fa-brands fa-twitter" title="Twitter" id="icon"></a>
+							<a href="https://faculty-research.esmt.berlin/person/tatiana-lluent/bio" class="fa-solid fa-up-right-from-square" title="ESMT" id="icon"></a>
+						</div>
+					</div>
+				</div>
+			</footer>			
 		</body>
 	</html>
