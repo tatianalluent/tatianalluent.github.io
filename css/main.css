@@ -29,6 +29,7 @@ footer ul li {
 .pagebox {
   margin: auto;
   max-width: 825px;
+  padding-top: 50px;
 }
 
 .container {
