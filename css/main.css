@@ -39,10 +39,12 @@ footer ul li {
 
 .section {
   flex: 1;
+  font-family:'Roboto', sans-serif;
 }
 
 .left {
   text-align: left;
+  font-family:'Roboto', sans-serif;
 }
 
 .center {
