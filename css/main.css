@@ -33,6 +33,7 @@ footer ul li {
 
 .container {
   display: flex;
+  vertical-align: text-top
 }
 
 .section {
