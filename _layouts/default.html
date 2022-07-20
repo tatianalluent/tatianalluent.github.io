@@ -1,10 +1,13 @@
 <!DOCTYPE html>
+
+<html lang="en">
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			<link rel="stylesheet" type="text/css" href="/css/responsive.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 			<meta name="google-site-verification" content="msTi-kAb44xrECDngLApS583PXlpBxdNUmMQ9nvwybw" />
 			<!-- Google Tag Manager -->
@@ -15,7 +18,7 @@
 			})(window,document,'script','dataLayer','GTM-T4SLRWX');</script>
 			<!-- End Google Tag Manager -->
 			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="icon" href="{{site.baseurl}}/docs/images/ESMT-Berlin_Logo.png">
+			<link rel="icon" href="/docs/images/ESMT-Berlin_Logo.png">
 			<!-- Global site tag (gtag.js) - Google Analytics -->
 				<script async src="https://www.googletagmanager.com/gtag/js?id=G-LS73K3C9PE"></script>
 				<script>
@@ -27,6 +30,7 @@
 				</script>
 			{% seo %}
 		</head>
+		
 		<body>
 			<!-- Google Tag Manager (noscript) -->
 			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4SLRWX"
@@ -35,7 +39,7 @@
 			<nav>
 	    		<ul>
 	        		<li><a href="/">HOME</a></li>
-	        		<li><a href="{{site.baseurl}}/docs/pdfs/Academic Resume_Tatiana LLUENT_WF.pdf" target="_blank">CV</a></li>
+	        		<li><a href="/docs/pdfs/Academic Resume_Tatiana LLUENT_WF.pdf" target="_blank">CV</a></li>
             			<li><a href="/research">RESEARCH</a></li>
 				<li><a href="/resources">RESOURCES</a></li>
 	    		</ul>
@@ -46,24 +50,25 @@
 			{{ content }}
 			
 			</div><!-- /.container -->
+		</body>	
 			
-			<footer>	    		
-				<div class="pagebox">
-					<div class="container">
-						<div class="section left footnote" style="width: 100%;">
-							{{ site.first_name | prepend: "&copy; <script>document.write(new Date().getFullYear())</script> " }}<span style="display: none;"> </span><b> {{ site.last_name }}</b>
-							<br />
-							<a href="https://jekyllrb.com/">Jekyll</a> ·
-							<a href="{{ site.repo }}">Source</a> 
-						</div>
-						<div class="section right" style="width: 75%; ">
-							<a href="mailto:{{ site.email }}" class="fas fa-2x fa-envelope-square" title="Email" id="icon"></a>
-							<a href="https://scholar.google.com/citations?user=0Ik-RUEAAAAJ&hl=en" class="ai ai-2x ai-google-scholar-square" title="Google Scholar" id="icon"></a>
-							<a href="https://twitter.com/TatianaLluent" class=class="fa-brands fa-twitter" title="Twitter" id="icon"></a>
-							<a href="https://faculty-research.esmt.berlin/person/tatiana-lluent/bio" class="fa-solid fa-up-right-from-square" title="ESMT" id="icon"></a>
-						</div>
+		<footer>	    		
+			<div class="pagebox">
+				<div class="container">
+					<div class="section left footnote" style="width: 100%;">
+						{{ site.first_name | prepend: "&copy; <script>document.write(new Date().getFullYear())</script> " }}<span style="display: none;"> </span><b> {{ site.last_name }}</b>
+						<br />
+						<a href="https://jekyllrb.com/">Jekyll</a> ·
+						<a href="{{ site.repo }}">Source</a> 
+					</div>
+					<div class="section right" style="width: 75%; ">
+						<a href="mailto:{{ site.email }}" class="fas fa-2x fa-envelope-square" title="Email" id="icon"></a>
+						<a href="https://scholar.google.com/citations?user=0Ik-RUEAAAAJ&hl=en" class="ai ai-2x ai-google-scholar-square" title="Google Scholar" id="icon"></a>
+						<a href="https://twitter.com/TatianaLluent" class="fa-brands fa-twitter" title="Twitter" id="icon"></a>
+						<a href="https://faculty-research.esmt.berlin/person/tatiana-lluent/bio" class="fa-solid fa-up-right-from-square" title="ESMT" id="icon"></a>
 					</div>
 				</div>
-			</footer>			
-		</body>
+			</div>
+		</footer>			
+		
 	</html>
