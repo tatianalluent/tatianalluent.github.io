@@ -5,6 +5,8 @@ title: Tatiana Lluent
 name: Tatiana Lluent
 description: Assistant Professor of Strategy at ESMT Berlin
 url: https://tatianalluent.github.io/
+baseurl: /tatianalluent.github.io
+repo: https://github.com/tatianalluent/tatianalluent.github.io
 markdown: kramdown
 google_analytics: G-LS73K3C9PE
 google-site-verification: msTi-kAb44xrECDngLApS583PXlpBxdNUmMQ9nvwybw
@@ -14,6 +16,7 @@ author: Tatiana Lluent
 first_name: Tatiana
 last_name: Lluent
 university: ESMT Berlin
+email: tatiana.lluent@esmt.org
 
 # Build settings
 plugins:
