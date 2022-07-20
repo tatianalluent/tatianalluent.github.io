@@ -26,6 +26,11 @@ footer ul li {
     font-size: 1.5vw;
 }
 
+.footnote {
+  font-size: 13pt;
+  line-height: 1.2;
+}
+
 a {
     text-decoration: none;
     color: #999;
