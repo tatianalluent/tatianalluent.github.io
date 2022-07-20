@@ -33,27 +33,22 @@ footer ul li {
 
 .container {
   display: flex;
-  vertical-align: top;
 }
 
 .section {
   flex: 1;
-   vertical-align: top;
 }
 
 .left {
   text-align: left;
-  vertical-align: top;
 }
 
 .center {
   text-align: center;
-  vertical-align: top;
 }
 
 .right {
   text-align: right;
-  vertical-align: top;
 }
 
 .footnote {
@@ -64,12 +59,11 @@ footer ul li {
 a {
     text-decoration: none;
     color: #999;
-    vertical-align: top;
 }
+
 a:hover {
     text-decoration: underline;
 }
-
 
 h1 {
     text-align: center;
@@ -109,7 +103,6 @@ ul {
 
 #icon{
   text-decoration: none;
-   vertical-align: top;
 }
 
 /******************************************************************************/
