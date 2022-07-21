@@ -40,11 +40,13 @@ footer ul li {
 .section {
   flex: 1;
   font-family:'Roboto', sans-serif;
+  font-size: 11pt;
 }
 
 .left {
   text-align: left;
   font-family:'Roboto', sans-serif;
+  font-size: 11pt;
 }
 
 .right {
